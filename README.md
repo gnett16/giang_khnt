@@ -20,7 +20,11 @@ rain_plot.png: Biểu đồ so sánh xác suất mưa thực tế và dự đoá
 
 loss_plot.png (tùy chọn): Biểu đồ loss huấn luyện và xác thực (lưu trong static/, nếu có lịch sử huấn luyện).
 
-Thư mục static/: Chứa các file hình ảnh biểu đồ, tự động tạo nếu chưa tồn tại./////**
+Thư mục static/: Chứa các file hình ảnh biểu đồ, tự động tạo nếu chưa tồn tại./////**.
+
+
+
+
 
 
 
