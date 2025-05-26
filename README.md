@@ -2,7 +2,7 @@
 
 README : Thực hiện trên ubuntu 20.04
 
-/**/dưới đây là các file dữ liệu đã được tạo từ lần thực hiện trước, để làm lại mô hình mới cần xóa đi để tạo lại
+/**///////dưới đây là các file dữ liệu đã được tạo từ lần thực hiện trước, để làm lại mô hình mới cần xóa đi để tạo lại
 
 weather_dataset.csv: Lưu dữ liệu thời tiết (nhiệt độ, độ ẩm, áp suất, xác suất mưa, lượng mưa, thời gian) từ API OpenWeatherMap.
 
@@ -20,7 +20,8 @@ rain_plot.png: Biểu đồ so sánh xác suất mưa thực tế và dự đoá
 
 loss_plot.png (tùy chọn): Biểu đồ loss huấn luyện và xác thực (lưu trong static/, nếu có lịch sử huấn luyện).
 
-Thư mục static/: Chứa các file hình ảnh biểu đồ, tự động tạo nếu chưa tồn tại.**
+Thư mục static/: Chứa các file hình ảnh biểu đồ, tự động tạo nếu chưa tồn tại./////**
+
 
 
 Cài python3 và pip:
