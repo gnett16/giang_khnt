@@ -32,6 +32,11 @@ loss_plot.png (tùy chọn): Biểu đồ loss huấn luyện và xác thực (l
 
 Thư mục static/: Chứa các file hình ảnh biểu đồ, tự động tạo nếu chưa tồn tại.
 
+Để tạo dữ liệu mới và huấn luyện lại mô hình, xóa các file từ lần chạy trước:
+
+rm weather_dataset.csv temp_model.h5 rain_model.h5 scaler.pkl loss_history.pkl
+rm -rf static/*
+
 Lưu ý: Khi huấn luyện lại, cần khoảng 15 phút để thu thập dữ liệu mới từ API.
 
 Cài đặt môi trường
@@ -52,10 +57,5 @@ python3 weather_forecast_app.py
 
 Truy cập ứng dụng:
 http://localhost:5000
-
-Để tạo dữ liệu mới và huấn luyện lại mô hình, xóa các file từ lần chạy trước:
-
-rm weather_dataset.csv temp_model.h5 rain_model.h5 scaler.pkl loss_history.pkl
-rm -rf static/*
 
 Mạng ổn định để lấy dữ liệu
